@@ -16,6 +16,13 @@ Norėdami sužinoti Jums priskirtas užduotis terminale turite įvykyti komandas
 Už kiekvieną pavėluotą savaitę atsiskaityti maksimalus užduoties balas mažinamas po 10%.
 
 
+### Prisijungimas prie MIF kompiuterio
+1. Turite sužinoti savo studento pažymėjimo numerį lsp.lt svetainėje, jis taip pat pateiktas ant LSP pažymėjimo.
+2. Susikurti savo VU paskyrą: [id.vu.lt](https://id.vu.lt) puslapyje
+3. Turite susikurti savo MIF paskyrą: [radius.mif.vu.lt/passwd2](http://radius.mif.vu.lt/passwd2) puslapyje.
+4. Naudodami MIF paskyrą galite prisijungti prie  **linux (vnc)**
+
+
 ### Papildomiems įgūdžiams HackerRank.com
 Programavimo pradmenims įgauti ir žinioms gilinti egzistuoja puikus
 https://HackerRank.com tinklapis. Jame galima programuoti ir testuoti užduočių
