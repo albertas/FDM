@@ -20,7 +20,16 @@ Už kiekvieną pavėluotą savaitę atsiskaityti maksimalus užduoties balas ma�
 1. Turite sužinoti savo studento pažymėjimo numerį lsp.lt svetainėje, jis taip pat pateiktas ant LSP pažymėjimo.
 2. Susikurti savo VU paskyrą: [id.vu.lt](https://id.vu.lt) puslapyje
 3. Turite susikurti savo MIF paskyrą: [radius.mif.vu.lt/passwd2](http://radius.mif.vu.lt/passwd2) puslapyje.
-4. Naudodami MIF paskyrą galite prisijungti prie  **linux (vnc)**
+4. Naudodami MIF paskyrą galite prisijungti prie:  **linux (vnc)**
+
+Interaktyvų Python3 interpretatorių galite atsidaryti:
+1. Atidarę Terminal emulator (juoda ikona užduočių juostoje).
+2. Parašę **python3** ir pasapudę enter.
+
+Programas galite redaguoti su Gedit. Terminale prašykite **gedit failo_vardas.py**.
+
+Nustatymuose pasikeiskite, kad tabuliacijos simboliai būtų pakeičiami į 4
+tarpus.
 
 
 ### Papildomiems įgūdžiams HackerRank.com
