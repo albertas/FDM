@@ -24,7 +24,7 @@ Už kiekvieną pavėluotą savaitę atsiskaityti maksimalus užduoties balas ma�
 
 ### Kodo įvykdymas
 Programas galite redaguoti su Gedit arba Notepad:
-1. Terminale prašykite: `gedit failo_vardas.py`
+1. Terminale parašykite: `gedit failo_vardas.py`
 2. Parašykite programą, pavyzdžiui `print('Labas')`.
 3. Išsaugokite failą paspausdami **Ctrl+S**.
 4. Atidarykite kitą terminalo langą ir parašykite: `python3 failo_vardas.py`
