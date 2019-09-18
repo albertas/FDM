@@ -55,3 +55,9 @@ https://HackerRank.com/domains/python
 
 ### Teorijos paskaitų puslapis:
 https://klevas.mif.vu.lt/~tomukas/paskaitos/Informatika1.html
+
+
+### Kontaktai
+El. paštas:  **albertas.gimbutas@mif.vu.lt**
+
+
