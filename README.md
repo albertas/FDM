@@ -38,7 +38,7 @@ iš karto įvykdo Jūsų įvestas komandas.
 
 ### Užduočių atlikimas naudojant asmeninius kompiuterius (Windows)
 1. Įsidiekite [Python](https://www.python.org/downloads/). Įsitikinkite, kad
-   diegiant yra pasirinkta **Add Python to environement variables**.
+   diegiant yra pasirinkta *Add Python to environement variables*.
 2. Įsidiekite [Git bash](https://gitforwindows.org/).
     Git bash yra Terminalo atitikmuo.
 3. Git bash (Terminale) vietoje `python3` naudokite tiesiog `python`, nes
