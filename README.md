@@ -23,11 +23,12 @@ Už kiekvieną pavėluotą savaitę atsiskaityti maksimalus užduoties balas ma�
 4. Naudodami MIF paskyrą galite prisijungti prie:  **linux (vnc)**
 
 Programas galite redaguoti su Gedit arba Notepad:
-1. Terminale prašykite: **gedit failo_vardas.py**
-2. Išsaugokite failą paspausdami **Ctrl+S**.
-3. Atidarykite kitą terminalo langą ir parašykite: **python3 failo_vardas.py**
+1. Terminale prašykite: `gedit failo_vardas.py`
+2. Parašykite programą, pavyzdžiui `print('Labas')`.
+3. Išsaugokite failą paspausdami **Ctrl+S**.
+4. Atidarykite kitą terminalo langą ir parašykite: `python3 failo_vardas.py`
 Bus įvykdyta Jūsų programa.
-4. Gedit nustatymuose pasikeiskite, kad tabuliacijos simboliai būtų pakeičiami į 4 tarpus.
+5. Gedit nustatymuose pasikeiskite, kad tabuliacijos simboliai būtų pakeičiami į 4 tarpus.
 
 Python veikimą galite išbandyti ir su interaktyviu Python interpretatoriumi:
 1. Atidarykite Terminalo langą.
