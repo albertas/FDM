@@ -19,7 +19,7 @@ Už kiekvieną pavėluotą savaitę atsiskaityti maksimalus užduoties balas ma�
 ### Prisijungimas prie MIF kompiuterio
 1. Turite sužinoti savo studento pažymėjimo numerį lsp.lt svetainėje, jis taip pat pateiktas ant LSP pažymėjimo.
 2. Susikurti savo VU paskyrą: [id.vu.lt](https://id.vu.lt) puslapyje
-3. Turite susikurti savo MIF paskyrą: [radius.mif.vu.lt/passwd2](http://radius.mif.vu.lt/passwd2) puslapyje.
+3. Turite susikurti savo MIF paskyrą: [https://radius.mif.vu.lt/passwd2](https://radius.mif.vu.lt/passwd2) puslapyje.
 4. Naudodami MIF paskyrą galite prisijungti prie:  **linux (vnc)**
 
 Interaktyvų Python3 interpretatorių galite atsidaryti:
