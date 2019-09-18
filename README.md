@@ -22,14 +22,17 @@ Už kiekvieną pavėluotą savaitę atsiskaityti maksimalus užduoties balas ma�
 3. Turite susikurti savo MIF paskyrą: [https://radius.mif.vu.lt/passwd2](https://radius.mif.vu.lt/passwd2) puslapyje.
 4. Naudodami MIF paskyrą galite prisijungti prie:  **linux (vnc)**
 
-Interaktyvų Python3 interpretatorių galite atsidaryti:
-1. Atidarę Terminal emulator (juoda ikona užduočių juostoje).
-2. Parašę **python3** ir pasapudę enter.
+Programas galite redaguoti su Gedit arba Notepad:
+1. Terminale prašykite: **gedit failo_vardas.py**
+2. Išsaugokite failą paspausdami **Ctrl+S**.
+3. Atidarykite kitą terminalo langą ir parašykite: **python3 failo_vardas.py**
+Bus įvykdyta Jūsų programa.
+4. Gedit nustatymuose pasikeiskite, kad tabuliacijos simboliai būtų pakeičiami į 4 tarpus.
 
-Programas galite redaguoti su Gedit. Terminale prašykite **gedit failo_vardas.py**.
-
-Nustatymuose pasikeiskite, kad tabuliacijos simboliai būtų pakeičiami į 4
-tarpus.
+Python veikimą galite išbandyti ir su interaktyviu Python interpretatoriumi:
+1. Atidarykite Terminalo langą.
+2. Parašykite **python3**. Atsidarys interaktyvus interpretatorius, kuris
+iš karto įvykdo Jūsų įvestas komandas.
 
 
 ### Papildomiems įgūdžiams HackerRank.com
