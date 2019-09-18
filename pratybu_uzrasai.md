@@ -11,17 +11,18 @@ Python programavimo kalbos savybės:
 
 Python programavimo standartas PEP8
 
-Python paketų archyvas: pypi.org
+Python paketų archyvas: [pypi.org](https://pypi.org)
 
 Naudosime Python3
 
-Funkcijos kurias išmokome: print, help, dir, input.
+Funkcijos kurias išmokome: `print()`, `help()`, `dir()`, `input()`.
 
 
 ### Antrosios pratybos
-Priskyrimo operatorius: =
+Priskyrimo operatorius: `=`
 
 Sąlygos sakinio struktūra:
+
     if <sąlyga1>:
         print('<sąlyga1> teisinga')
     elif <sąlyga2>;
@@ -29,16 +30,16 @@ Sąlygos sakinio struktūra:
     else:
         print('visos sąlygos neteisingos')
 
-Viskas gali būti paversta į loginį tipą ir
-skaičių palyginimo operacijos grąžina loginio
-tipo reikšmes. Palyginimo operatoriai yra
-> < >= <= != ==
+Skaičių palyginimo operatoriai:  `>` `<` `>=` `<=` `!=` `==`
+Palyginimo operacijos reikšmė yra loginė.
 
-Loginio tipo reikšmės gali būti jungiamos su 
-operatoriais: and or not.
+Loginio tipo operatoriai: `and` `or` `not`
 
-max(), min() funkijų naudojimas
-int(), bool(), input() funkcijų nadojimas
+Visų tipų kintamieji gali būti paversti į loginį tipą.
+Jeigu kintamasis yra tuščias, jis verčiamas į `False`, kitu atveju jis verčiamas
+į `True`. Naturaliųjų skaičių atveju nulis yra laikomas tuščia reikšme.
 
+Tipų konvertavimo funkcijos: `int()`, `bool()`, `str()`, `float()`
+Funkcijos: `max()`, `min()`
 
 
