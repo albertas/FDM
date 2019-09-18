@@ -11,7 +11,7 @@ Užduočių sąrašai:
 Norėdami sužinoti Jums priskirtas užduotis terminale turite įvykyti komandas:
 
     git clone https://github.com/albertas/FDM
-    python3 FDM/uzduotys.py <Vardas> <Pavardė>
+    python3 FDM/uzduotys.py Vardas Pavardė
  
 Už kiekvieną pavėluotą savaitę atsiskaityti maksimalus užduoties balas mažinamas po 10%.
 
