@@ -43,3 +43,21 @@ Tipų konvertavimo funkcijos: `int()`, `bool()`, `str()`, `float()`
 Funkcijos: `max()`, `min()`
 
 
+
+### Trečiosios pratybos
+Linux terminalo komandos skirtos navigavimui po failinę sistemą:  `pwd`, `cd`, `ls`, `mkdir`, `mv`, `cp`, `scp`, `rm`.
+
+Git commandos: `clone`, `pull`, `commit`, `push`, `status`, `log`. Versijavimo
+sistemos naudojimo nauda: prieinamos senesnės kodo versijos, nors dirbama tik su
+aktualia versija. Leidžia bendradarbiauti rašant kodą. https://git-scm.com/
+
+Duomenų struktūros: sąrašas, žodynas.
+
+Funkcijos apibrėžimas.
+
+Klaidų ieškojimas naudojant `import pdb; pdb.set_trace()`.
+
+Papildytas Python interaktyvus interpretatorius: `ipython`
+
+
+
