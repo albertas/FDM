@@ -1,11 +1,12 @@
 #! coding: utf-8
 import sys
-from sys import version, argv
+from sys import version, argv, path
 from random import seed, choice, shuffle, randint, random
 from unittest.mock import patch
 import importlib
 from io import StringIO
 from datetime import datetime
+from os import getcwd
 
 if not version.startswith('3'):
     print('Naudokite python3')
@@ -53,6 +54,7 @@ data = {
 }
 test_data = data[u1]
 shuffle(test_data)
+path.append(getcwd())
 
 print('Testuojama: ', end='')
 for inputs, expected_result in test_data:
