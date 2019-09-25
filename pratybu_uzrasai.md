@@ -51,14 +51,14 @@ Git commandos: `clone`, `pull`, `commit`, `push`, `status`, `log`. Versijavimo
 sistemos naudojimo nauda: prieinamos senesnės kodo versijos, nors dirbama tik su
 aktualia versija. Leidžia bendradarbiauti rašant kodą. [Git dokumentacija](https://git-scm.com/). Nemokamas Git repozitorijų talpinimas [GitLab](https://gitlab.com), [GitHub](https://github.com).
 
-Duomenų struktūros: [`list` (sąrašas)](https://docs.python.org/3/tutorial/introduction.html#lists) ir [jo metodai](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists),
+Duomenų struktūros: [`list` (sąrašas)](https://docs.python.org/3/tutorial/introduction.html#lists) ir [jo metodai `append`, `pop`, `index`](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists),
 [`dict` (žodynas)](https://docs.python.org/3/tutorial/datastructures.html#dictionaries).
 
 [Funkcijos apibrėžimas](https://docs.python.org/3/tutorial/controlflow.html#defining-functions).
 
-[`for` ir `while` ciklai](https://docs.python.org/3/tutorial/controlflow.html#more-control-flow-tools).
+[`while`](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming) ir  [`for`](https://docs.python.org/3/tutorial/controlflow.html#more-control-flow-tools) ciklai.
 
-Klaidų ieškojimas naudojant `import pdb; pdb.set_trace()`, veiksmai: `n`, `s`, `c`, `q`.
+Klaidų ieškojimas naudojant `import pdb; pdb.set_trace()`, debugerio veiksmai: `n`, `s`, `c`, `q`.
 
 Papildytas Python interaktyvus interpretatorius: `ipython`.
 
