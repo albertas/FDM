@@ -62,5 +62,4 @@ Klaidų ieškojimas naudojant `import pdb; pdb.set_trace()`, debugerio veiksmai:
 
 Papildytas Python interaktyvus interpretatorius: `ipython`.
 
-Testas
-
+Labas
