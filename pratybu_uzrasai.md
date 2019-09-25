@@ -13,7 +13,7 @@ Python programavimo standartas PEP8
 
 Python paketų archyvas: [pypi.org](https://pypi.org)
 
-Naudosime Python3
+Naudosime Python3. [Interpretatoriaus paleidimo instrukcijos](https://docs.python.org/3/tutorial/interpreter.html).
 
 Funkcijos kurias išmokome: `print()`, `help()`, `dir()`, `input()`.
 
@@ -21,7 +21,7 @@ Funkcijos kurias išmokome: `print()`, `help()`, `dir()`, `input()`.
 ### Antrosios pratybos
 Priskyrimo operatorius: `=`
 
-Sąlygos sakinio struktūra:
+[Sąlygos sakinio (`if`)](https://docs.python.org/3/tutorial/controlflow.html#if-statements) struktūra:
 
     if <sąlyga1>:
         print('<sąlyga1> teisinga')
@@ -51,13 +51,15 @@ Git commandos: `clone`, `pull`, `commit`, `push`, `status`, `log`. Versijavimo
 sistemos naudojimo nauda: prieinamos senesnės kodo versijos, nors dirbama tik su
 aktualia versija. Leidžia bendradarbiauti rašant kodą. https://git-scm.com/
 
-Duomenų struktūros: sąrašas, žodynas.
+Duomenų struktūros: [sąrašas (angl. `list`)](https://docs.python.org/3/tutorial/introduction.html#lists) ir [jo metodai](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists).
 
-Funkcijos apibrėžimas.
+[Funkcijos apibrėžimas](https://docs.python.org/3/tutorial/controlflow.html#defining-functions).
 
-Klaidų ieškojimas naudojant `import pdb; pdb.set_trace()`.
+[`for` ir `while` ciklai](https://docs.python.org/3/tutorial/controlflow.html#more-control-flow-tools).
 
-Papildytas Python interaktyvus interpretatorius: `ipython`
+Klaidų ieškojimas naudojant `import pdb; pdb.set_trace()`, veiksmai: `n`, `s`, `c`, `q`.
+
+Papildytas Python interaktyvus interpretatorius: `ipython`.
 
 
 
