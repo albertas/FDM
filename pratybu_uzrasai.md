@@ -51,7 +51,8 @@ Git commandos: `clone`, `pull`, `commit`, `push`, `status`, `log`. Versijavimo
 sistemos naudojimo nauda: prieinamos senesnės kodo versijos, nors dirbama tik su
 aktualia versija. Leidžia bendradarbiauti rašant kodą. [Git dokumentacija](https://git-scm.com/). Nemokamas Git repozitorijų talpinimas [GitLab](https://gitlab.com), [GitHub](https://github.com).
 
-Duomenų struktūros: [sąrašas (angl. `list`)](https://docs.python.org/3/tutorial/introduction.html#lists) ir [jo metodai](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists).
+Duomenų struktūros: [`list` (sąrašas)](https://docs.python.org/3/tutorial/introduction.html#lists) ir [jo metodai](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists),
+[`dict` (žodynas)](https://docs.python.org/3/tutorial/datastructures.html#dictionaries).
 
 [Funkcijos apibrėžimas](https://docs.python.org/3/tutorial/controlflow.html#defining-functions).
 
