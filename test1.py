@@ -8,10 +8,12 @@ from io import StringIO
 from datetime import datetime
 from os import getcwd
 
+
 if not version.startswith('3'):
     print('Naudokite python3')
     exit()
-if not len(argv) == 4:
+
+if len(argv) < 4:
     print('Paleisdami nurodykite savo vardą, pavardę bei failą, kuriame yra Jūsų kodas, pvz:')
     print('python3 test1.py Vardas Pavardė failas.py')
     exit()
@@ -19,7 +21,10 @@ if not len(argv) == 4:
 def set_seed(name, surname):
     seed(name + ' ' + surname)
 
-vardas, pavarde, filename = argv[1:]
+vardas = argv[1]
+pavarde = argv[2]
+filename = argv[-1]
+
 package = filename[:-3] if filename.endswith('.py') else filename
 set_seed(vardas, pavarde)
 
@@ -89,7 +94,7 @@ for inputs, expected_result in test_data:
         print('+', end='')
         sys.stdout.flush()
 
-print(f'\nSveikinu! {vardas} {pavarde} atsiskaitė 1`ąja užduotį ({filename} {u1}-{randint(100,999)}).')
+print(f'\nSveikinu! {" ".join(argv[1:-1])} atsiskaitė 1`ąja užduotį ({filename} {u1}-{randint(100,999)}).')
 score = 10
 if datetime.now().isocalendar()[1] >= 41:
     score -= datetime.now().isocalendar()[1] - 40
