@@ -62,9 +62,15 @@ Norint atsiskaityti pirmąją užduotį įvykdykite ir pakvieskite mane:
 
   * Duomenų struktūra [`list` (sąrašas)](https://docs.python.org/3/tutorial/introduction.html#lists) ir [jo metodai `append`, `pop`, `index`](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists), [slicing (elementų ištraukimas iš sąrašo [from,to,step] ](https://docs.python.org/3/tutorial/introduction.html#strings).
   * Ciklai [`while`](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming) ir  [`for`](https://docs.python.org/3/tutorial/controlflow.html#more-control-flow-tools) ciklai. Jų eigos valdymas naudojant [`break` ir `continue`](https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops) sąkinius.
-  * Skaičių operatoriai: `%`, `//`, `**`
+  * Skaičių operatoriai:
+    * `%` - grąžina sveikųjų skaičių dalybos liekaną
+    * `//` - grąžina sveikųjų skaičių dalybos sveikąją dalį
+    * `**` - pakelia skaičių kvadratu
   * Realiųjų skaičių apvalinimas naudojant: `int()`, `round()`
-  * Pagalbinės funkcijos: [`range()`](https://docs.python.org/3/library/stdtypes.html#range), [`enumerate()`](https://docs.python.org/3/library/functions.html#enumerate)
+  * Pagalbinės funkcijos:
+    * [`range()`](https://docs.python.org/3/library/stdtypes.html#range) -
+      sugeneruoja skaičių seką.
+    * [`enumerate()`](https://docs.python.org/3/library/functions.html#enumerate) - sunumeruoja skaičių seką.
   * Simbolių eilučių formatavimas naudojant `f"{}"` išraišką.
 
 
