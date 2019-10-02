@@ -43,6 +43,8 @@ iš karto įvykdo Jūsų įvestas komandas.
     Git bash yra Terminalo atitikmuo.
 3. Git bash (Terminale) vietoje `python3` naudokite tiesiog `python`, nes
    `python3` komanda bus nerasta.
+4. Įrašykite `export PYTHONIOENCODING=utf-8` eilutę į `~/.bashrc` failą
+   (sukurti jeigu neegzistuoja), kad būtų tinkamai spausdinami lietuviški simboliai.
 
 
 ### Papildomiems įgūdžiams HackerRank.com
