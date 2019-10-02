@@ -68,6 +68,10 @@ Norint atsiskaityti pirmąją užduotį įvykdykite ir pakvieskite mane:
   * Simbolių eilučių formatavimas naudojant `f"{}"` išraišką.
 
 
+
+
+
+
 ### Būsimos pratybos
 
 Duomenų struktūros:
