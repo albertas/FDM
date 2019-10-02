@@ -12,6 +12,19 @@ Norėdami sužinoti Jums priskirtas užduotis terminale turite įvykyti komandas
 
     git clone https://github.com/albertas/FDM
     python3 FDM/uzduotys.py Vardas Pavardė
+
+Norėdami atsiskaityti pimąją užduotį terminale turite įvykdyti komandas:
+
+    cd FDM
+    git pull
+    cd ..
+    python3 test1.py Vardas Pavardė jusu_pirmoji_programa.py
+
+Jeigu Jums buvo atspausdintas pranešimas, kad sėkmingai atsiskaitėte,
+pakvieskite dėstytoją, jog jis pasižymėtų, kad Jūs sėkmingai atsiskaitėte.
+
+Norėdami atsiskaityti kitas užduotis įvykdykite aukščiau nurodytą komandą, tik
+atitinkamai pakeisdami `test1.py` į `test2.py`, `test3.py`, `test4.py` ir `test5.py`.
  
 Už kiekvieną pavėluotą savaitę atsiskaityti maksimalus užduoties balas mažinamas po 10%.
 
