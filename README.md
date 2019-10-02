@@ -58,6 +58,8 @@ iš karto įvykdo Jūsų įvestas komandas.
    `python3` komanda bus nerasta.
 4. Įrašykite `export PYTHONIOENCODING=utf-8` eilutę į `~/.bashrc` failą
    (sukurti jeigu neegzistuoja), kad būtų tinkamai spausdinami lietuviški simboliai.
+   Arba Terminale įvykdykite `export PYTHONIOENCODING=utf-8` komandą prieš
+   vykdydami Python komandas.
 
 
 ### Papildomiems įgūdžiams HackerRank.com
