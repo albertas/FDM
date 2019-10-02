@@ -64,7 +64,7 @@ Norint atsiskaityti pirmąją užduotį įvykdykite ir pakvieskite mane:
   * Ciklai [`while`](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming) ir  [`for`](https://docs.python.org/3/tutorial/controlflow.html#more-control-flow-tools) ciklai. Jų eigos valdymas naudojant [`break` ir `continue`](https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops) sąkinius.
   * Skaičių operatoriai: `%`, `//`, `**`
   * Realiųjų skaičių apvalinimas naudojant: `int()`, `round()`
-  * Pagalbinės funkcijos: `[range()](https://docs.python.org/3/library/stdtypes.html#range)`, `[enumerate()](https://docs.python.org/3/library/functions.html#enumerate)`
+  * Pagalbinės funkcijos: [`range()`](https://docs.python.org/3/library/stdtypes.html#range), [`enumerate()`](https://docs.python.org/3/library/functions.html#enumerate)
   * Simbolių eilučių formatavimas naudojant `f"{}"` išraišką.
 
 
