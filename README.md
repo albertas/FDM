@@ -18,7 +18,7 @@ Norėdami atsiskaityti pimąją užduotį terminale turite įvykdyti komandas:
     cd FDM
     git pull
     cd ..
-    python3 test1.py Vardas Pavardė jusu_pirmoji_programa.py
+    python3 FDM/test1.py Vardas Pavardė jusu_pirmoji_programa.py
 
 Jeigu Jums buvo atspausdintas pranešimas, kad sėkmingai atsiskaitėte,
 pakvieskite dėstytoją, jog jis pasižymėtų, kad Jūs sėkmingai atsiskaitėte.
