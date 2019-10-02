@@ -91,7 +91,7 @@ for inputs, expected_result in test_data:
 
     if expected_result != result:
         print('\nPrograma veikia nekorektiškai su įvestimis:', ', '.join([str(i) for i in inputs]))
-        print(expected_result, ',', result)
+        print('Tikėtąsi', expected_result, ', o gauta', result)
         exit()
     else:
         print('+', end='')
