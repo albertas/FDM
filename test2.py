@@ -1,5 +1,6 @@
 #! coding: utf-8
 import sys
+import os
 from sys import version, argv, path
 from random import seed, choice, shuffle, randint, random
 from unittest.mock import patch
@@ -17,6 +18,8 @@ if len(argv) < 4:
     print('Paleisdami nurodykite savo vardą, pavardę bei failą, kuriame yra Jūsų kodas, pvz:')
     print('python3 test1.py Vardas Pavardė failas.py')
     exit()
+
+os.environ['PYTHONIOENCODING'] = "utf-8"
 
 def set_seed(name, surname):
     seed(name + ' ' + surname)
