@@ -65,6 +65,7 @@ Norint atsiskaityti pirmąją užduotį įvykdykite ir pakvieskite mane:
   * Skaičių operatoriai: `%`, `//`, `**`
   * Realiųjų skaičių apvalinimas naudojant: `int`, `round`
   * Pagalbinės funkcijos: `range`, `enumerate`
+  * Simbolių eilučių formatavimas naudojant `f"{}"` išraišką.
 
 
 ### Būsimos pratybos
