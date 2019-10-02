@@ -47,19 +47,33 @@ Funkcijos: `max()`, `min()`
 ### Trečiosios pratybos
 Linux terminalo komandos skirtos navigavimui po failinę sistemą:  `pwd`, `cd`, `ls`, `mkdir`, `mv`, `cp`, `scp`, `rm`.
 
-Git commandos: `clone`, `pull`, `commit`, `push`, `status`, `log`. Versijavimo
+Git commandos: `clone`, `pull`, `add`, `commit`, `push`, `status`, `log`. Versijavimo
 sistemos naudojimo nauda: prieinamos senesnės kodo versijos, nors dirbama tik su
 aktualia versija. Leidžia bendradarbiauti rašant kodą. [Git dokumentacija](https://git-scm.com/). Nemokamas Git repozitorijų talpinimas [GitLab](https://gitlab.com), [GitHub](https://github.com).
 
-Duomenų struktūros: [`list` (sąrašas)](https://docs.python.org/3/tutorial/introduction.html#lists) ir [jo metodai `append`, `pop`, `index`](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists),
-[`dict` (žodynas)](https://docs.python.org/3/tutorial/datastructures.html#dictionaries).
+Norint atsiskaityti pirmąją užduotį įvykdykite ir pakvieskite mane:
+
+    $ cd FDM
+    $ git pull
+    $ cd ..
+    $ python3 test1.py Vardas Pavardė jusu_programa.py
+
+### Ketvirtosios pratybos
+
+  * Duomenų struktūra [`list` (sąrašas)](https://docs.python.org/3/tutorial/introduction.html#lists) ir [jo metodai `append`, `pop`, `index`](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists), [slicing (elementų ištraukimas iš sąrašo [from,to,step] ](https://docs.python.org/3/tutorial/introduction.html#strings).
+  * Ciklai [`while`](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming) ir  [`for`](https://docs.python.org/3/tutorial/controlflow.html#more-control-flow-tools) ciklai. Jų eigos valdymas naudojant [`break` ir `continue`](https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops) sąkinius.
+  * Skaičių operatoriai: `%`, `//`, `**`
+  * Realiųjų skaičių apvalinimas naudojant: `int`, `round`
+  * Pagalbinės funkcijos: `range`, `enumerate`
+
+
+### Būsimos pratybos
+
+Duomenų struktūros:
+  * [`dict` (žodynas)](https://docs.python.org/3/tutorial/datastructures.html#dictionaries).
 
 [Funkcijos apibrėžimas](https://docs.python.org/3/tutorial/controlflow.html#defining-functions).
-
-[`while`](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming) ir  [`for`](https://docs.python.org/3/tutorial/controlflow.html#more-control-flow-tools) ciklai. Jų eigos valdymas naudojant [`break` ir `continue`](https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops) sąkinius.
 
 Klaidų ieškojimas naudojant `import pdb; pdb.set_trace()`, debugerio veiksmai: `n`, `s`, `c`, `q`.
 
 Papildytas Python interaktyvus interpretatorius: `ipython`.
-
-Labas
