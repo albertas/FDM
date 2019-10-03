@@ -1,7 +1,7 @@
 ### Pirmosios pratybos
-Algoritmas - veiksmų seka, kurią reikia atlikti norint gauti rezultatą.
+Algoritmas - baigtinė veiksmų seka, kurią reikia atlikti norint gauti rezultatą.
 
-Programa - konkrečių komandų 
+Programa - algoritmas užrašytas konkrečia porgramavimo kalba.
 
 Kintamasis - vieta atmintyje, kurioje galima išsaugoti reikšmę.
 
@@ -9,7 +9,8 @@ Python programavimo kalbos savybės:
  - interpretuojama - programos žingsniai vykdomi iš eilės.
  - dinamiškai tipizuojama - tas pats kintamasis gali turėti skirtingo tipo reikšmes.
 
-Python programavimo standartas PEP8
+Python kodo stiliaus standartas: [PEP8](https://pep8.org/) - nusako taisykles
+kaip turėtų būti formatuotas kodas.
 
 Python paketų archyvas: [pypi.org](https://pypi.org)
 
