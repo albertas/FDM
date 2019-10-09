@@ -57,7 +57,7 @@ Norint atsiskaityti pirmąją užduotį įvykdykite ir pakvieskite mane:
     $ cd FDM
     $ git pull
     $ cd ..
-    $ python3 test1.py Vardas Pavardė jusu_programa.py
+    $ python3 FDM/test1.py Vardas Pavardė jusu_programa.py
 
 ### Ketvirtosios pratybos
 
