@@ -76,11 +76,33 @@ Norint atsiskaityti pirmąją užduotį įvykdykite ir pakvieskite mane:
 
 ### Penktosios pratybos
 Duomenų struktūros:
+  * [`tuple` (kortedžas, dar vadinamas sąrašu konstanta)] 
   * [`dict` (žodynas)](https://docs.python.org/3/tutorial/datastructures.html#dictionaries).
-  * `set` (aibė)
-  * `tuple` (kortedžas arba sąrašas konstanta)
+  * [`set` (aibė)]
 
-Immutable ir Mutable kintamųjų apibrėžimai.
+Pagalbinė funkcija: [`len()`](https://docs.python.org/3.7/library/functions.html#len) - grąžina elementų skaičių sąraše, aibėje ar žodyne.
+
+**Immutable** ir **Mutable** kintamųjų apibrėžimai.
+  * Immutable - kintamieji konstantos (jų negalima keisti), pvz.: `int()`,
+    `str()`, `bool()`, `float()`, `tuple()`. Atlikus veiksmą su **Immutable** kintamuoju yra sukuriama nauja reikšmė, o
+    ne modifikuojama jau egzistuojanti.
+  * Mutable - po sukūrimo kintamojo reikšmė gali būti redaguojama, pvz.:
+    `list()`, `set()`, `dict()`.
+
+**Mutable** kintamojo priskyrimas priskiria nuorodą, o ne reikšmę:
+
+```
+>>> a = [1]
+>>> b = a
+>>> c = a[:]
+>>> b.append(2)
+>>> print(a)
+... [1, 2]
+>>> print(b)
+... [1, 2]
+>>> print(c)
+... [1]
+```
 
 
 
