@@ -74,15 +74,17 @@ Norint atsiskaityti pirmąją užduotį įvykdykite ir pakvieskite mane:
     * [`enumerate()`](https://docs.python.org/3/library/functions.html#enumerate) - sunumeruoja skaičių seką.
   * Simbolių eilučių formatavimas naudojant `f"{}"` išraišką.
 
+### Penktosios pratybos
+Duomenų struktūros:
+  * [`dict` (žodynas)](https://docs.python.org/3/tutorial/datastructures.html#dictionaries).
+  * `set` (aibė)
+  * `tuple` (kortedžas arba sąrašas konstanta)
 
-
+Immutable ir Mutable kintamųjų apibrėžimai.
 
 
 
 ### Būsimos pratybos
-
-Duomenų struktūros:
-  * [`dict` (žodynas)](https://docs.python.org/3/tutorial/datastructures.html#dictionaries).
 
 [Funkcijos apibrėžimas](https://docs.python.org/3/tutorial/controlflow.html#defining-functions).
 
