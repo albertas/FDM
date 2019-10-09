@@ -250,7 +250,7 @@ for inputs, expected_result in test_data:
         elif type(expected_result) == str:
             result = value.strip().lower().replace('ė', 'e')
         else:
-            result = [v.strip(':",;!.\'`') for v in value.split()]
+            result = [v.strip(':",;!.\'`[]') for v in value.split()]
             result = [int(v) for v in result if v.strip('-').isdigit()]; randint(1, 100)
 
     if expected_result != result:
