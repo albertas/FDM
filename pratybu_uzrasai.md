@@ -76,9 +76,9 @@ Norint atsiskaityti pirmąją užduotį įvykdykite ir pakvieskite mane:
 
 ### Penktosios pratybos
 Duomenų struktūros:
-  * [`tuple` (kortedžas, dar vadinamas sąrašu konstanta)] 
-  * [`dict` (žodynas)](https://docs.python.org/3/tutorial/datastructures.html#dictionaries).
-  * [`set` (aibė)]
+  * [`tuple()` (kortedžas, dar vadinamas sąrašu konstanta)]() 
+  * [`dict()` (žodynas)](https://docs.python.org/3/tutorial/datastructures.html#dictionaries).
+  * [`set()` (aibė)]()
 
 Pagalbinė funkcija: [`len()`](https://docs.python.org/3.7/library/functions.html#len) - grąžina elementų skaičių sąraše, aibėje ar žodyne.
 
