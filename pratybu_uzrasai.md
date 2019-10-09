@@ -82,11 +82,11 @@ Duomenų struktūros:
 
 Pagalbinė funkcija: [`len()`](https://docs.python.org/3.7/library/functions.html#len) - grąžina elementų skaičių sąraše, aibėje ar žodyne.
 
-**Immutable** ir **Mutable** kintamųjų apibrėžimai:
-  * Immutable - kintamieji konstantos (jų negalima keisti), pvz.: `int()`,
+[**Immutable**](https://docs.python.org/3/glossary.html#term-immutable) ir [**Mutable**](https://docs.python.org/3/glossary.html#term-mutable) kintamųjų apibrėžimai:
+  * [**Immutable**](https://docs.python.org/3/glossary.html#term-immutable) - kintamieji konstantos (jų negalima keisti), pvz.: `int()`,
     `str()`, `bool()`, `float()`, `tuple()`. Atlikus veiksmą su **Immutable** kintamuoju yra sukuriama nauja reikšmė, o
     ne modifikuojama jau egzistuojanti.
-  * Mutable - po sukūrimo kintamojo reikšmė gali būti redaguojama, pvz.:
+  * [**Mutable**](https://docs.python.org/3/glossary.html#term-mutable) - po sukūrimo kintamojo reikšmė gali būti redaguojama, pvz.:
     `list()`, `set()`, `dict()`.
 
 **Mutable** kintamojo priskyrimas priskiria nuorodą, o ne reikšmę:
