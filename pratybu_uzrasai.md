@@ -94,7 +94,7 @@ Pagalbinė funkcija: [`len()`](https://docs.python.org/3.7/library/functions.htm
 ```
 >>> a = [1]
 >>> b = a
->>> c = a[:]
+>>> c = a[:]  # Sukuria naują sąrašą su tokiais pačiais elementais
 >>> b.append(2)
 >>> print(a)
 ... [1, 2]
