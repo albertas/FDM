@@ -16,7 +16,7 @@ if not version.startswith('3'):
 
 if len(argv) < 4:
     print('Paleisdami nurodykite savo vardą, pavardę bei failą, kuriame yra Jūsų kodas, pvz:')
-    print('python3 test1.py Vardas Pavardė failas.py')
+    print('python3 test2.py Vardas Pavardė failas.py')
     exit()
 
 os.environ['PYTHONIOENCODING'] = "utf-8"
