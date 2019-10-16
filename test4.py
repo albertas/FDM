@@ -265,6 +265,7 @@ for inputs, expected_result in test_data:
          patch('sys.stdout', new=StringIO()) as output_mock:
 
         i = importlib.import_module(package)
+        package_file = i.__file__
         del sys.modules[package]
 
         value = output_mock.getvalue()
@@ -278,6 +279,16 @@ for inputs, expected_result in test_data:
         else:
             result = [v.strip(':",;!.\'`[]()') for v in value.split()]
             result = [float(v) for v in result if v.strip('-').replace('.', '').isdigit()]; randint(1, 100)
+
+    with open(i.__file__) as code_file:
+        code = code_file.read()
+        if 'def' not in code:
+            print('\n\nPrograma netenkina reikalavimų, nes nėra panaudota funkcija.')
+            exit()
+        if 'dict(' not in code and '{' not in code:
+            print('\n\nPrograma netenkina reikalavimų, nes taškų koordinates turite talpinti žodyne.')
+            print("Pavyzdžiui:  taškai = {'a': [0, 0], 'b': [0, 1], 'c': [1, 1]}.")
+            exit()
 
     def approx(l):
         return set([round(v, 5) for v in l])
