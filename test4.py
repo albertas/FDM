@@ -249,7 +249,6 @@ data = {
         [[2, 1, 0, -1, 1, 3], [4.123105625617661]],
     ]
 }
-u4 = 28
 test_data = data[u4]
 shuffle(test_data)
 path.append(getcwd())
