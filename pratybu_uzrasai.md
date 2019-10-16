@@ -105,8 +105,27 @@ Pagalbinė funkcija: [`len()`](https://docs.python.org/3.7/library/functions.htm
 ```
 
 
+### Šeštosios pratybos
+Kintamųjų vardų sudarymo taisyklės: 
+ * turi prasidėti raide (a-zA-Z_).
+ * varde gali būti raidės ir skaičiai (a-zA-Z_0-9).
+ * nenaudoti rezervuotų vardų kintamiesiams
+ * kintamieji, kurių vardai prasideda _ turi specialią reikšmę.
+
+Paklaidos, kurio atsiranda dirbant su realiosiomis reikšmėmis. `round(<reikšmė>, <tikslumas>)` funkcijos naudojimas reikšmių palyginimams.
+
+Funkcijos:
+ * funkcijos struktūra, raktiniai žodžiai `def`, `return`
+ * argumentas, argumentų perdavimo būdai.
+ * parametras, parametrų nustatytosios reikšmės.
+ * funkcijos grąžinamos reikšmės.
+
+
+
+
 
 ### Būsimos pratybos
+Failai
 
 [Funkcijos apibrėžimas](https://docs.python.org/3/tutorial/controlflow.html#defining-functions).
 
