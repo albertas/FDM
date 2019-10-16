@@ -145,10 +145,10 @@ data = {
         [[0,0, 1,1, 0,2], [2,0]],
     ],
     17: [
-        [[0,0, 0,1, 1,1, 1,2], [True]],
-        [[0,0, 0,1, 1,1, 2,1], [False]],
-        [[0,0, 1,0, 0,0, 1,1], [False]],
-        [[0,0, 1,0, 0,1, 1,1], [True]],
+        [[0,0, 0,1, 1,1, 1,2], True],
+        [[0,0, 0,1, 1,1, 2,1], False],
+        [[0,0, 1,0, 0,0, 1,1], False],
+        [[0,0, 1,0, 0,1, 1,1], True],
     ],
     18: [
         [[0,0, 0,1, 1,1], True],
@@ -290,7 +290,9 @@ for inputs, expected_result in test_data:
             exit()
 
     def approx(l):
-        return set([round(v, 5) for v in l])
+        if type(l) == list or type(l) == tuple:
+            return set([round(v, 5) for v in l])
+        return l
 
     if approx(expected_result) != approx(result):
         print('\nPrograma veikia nekorektiškai su įvestimis:', ', '.join([str(i) for i in inputs]))
