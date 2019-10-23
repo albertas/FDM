@@ -116,11 +116,32 @@ Paklaidos, kurio atsiranda dirbant su realiosiomis reikšmėmis. `round(<reikšm
 
 Funkcijos:
  * funkcijos struktūra, raktiniai žodžiai `def`, `return`
- * argumentas, argumentų perdavimo būdai.
- * parametras, parametrų nustatytosios reikšmės.
+ * parametras - reikšmės, kurių tikisi funkcija.
+  * parametrų nustatytosios reikšmės.
+ * argumentas - reikšmės su kuriomis funkcija iškviečiama.
+  * argumentų perdavimo būdai.
  * funkcijos grąžinamos reikšmės.
 
+Žodynų ir sąrašų elementų panaudojimas.
 
+
+### Septintosios pratybos
+Failai ir jų metodai:
+  * open 
+  * close
+  * read
+  * write
+
+Konteksto valdytojas (context manager), pvz.: `with open('filname') as f:`
+
+Simbolių eilučių metodai:
+ * split
+ * strip
+ * replace
+ * lower
+ * upper
+
+Simbolių eilučių formatavimas naudojant `f'{}'`.
 
 
 
