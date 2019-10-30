@@ -235,23 +235,28 @@ for inputs, expected_result in test_data:
             yield str(i)
 
     result = None
-    with patch('builtins.input', side_effect=input_mock()) as input_mock, \
-         patch('sys.stdout', new=StringIO()) as output_mock:
+    try:
+        with patch('builtins.input', side_effect=input_mock()) as input_mock, \
+             patch('sys.stdout', new=StringIO()) as output_mock:
 
-        i = importlib.import_module(package)
-        del sys.modules[package]
+            i = importlib.import_module(package)
+            del sys.modules[package]
 
-        value = output_mock.getvalue()
-        if type(expected_result) == bool:
-            if value.strip().lower() in ['taip', 'true']:
-                result = True
-            elif value.strip().lower() in ['ne', 'false']:
-                result = False
-        elif type(expected_result) == str:
-            result = value.strip().lower().replace('ė', 'e')
-        else:
-            result = [v.strip(':",;!.\'`[]') for v in value.split()]
-            result = [int(v) for v in result if v.strip('-').isdigit()]; randint(1, 100)
+            value = output_mock.getvalue()
+            if type(expected_result) == bool:
+                if value.strip().lower() in ['taip', 'true']:
+                    result = True
+                elif value.strip().lower() in ['ne', 'false']:
+                    result = False
+            elif type(expected_result) == str:
+                result = value.strip().lower().replace('ė', 'e')
+            else:
+                result = [v.strip(':",;!.\'`[]') for v in value.split()]
+                result = [int(v) for v in result if v.strip('-').isdigit()]; randint(1, 100)
+    except:
+        print('\nKilo klaida vykdanta programą su įvestimis:', ', '.join([str(i) for i in inputs]))
+        print('\n')
+        raise
 
     if expected_result != result:
         print('\nPrograma veikia nekorektiškai su įvestimis:', ', '.join([str(i) for i in inputs]))
