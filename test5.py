@@ -232,6 +232,7 @@ for inputs, expected_result in test_data:
         if mode == 'r':
             m = MagicMock()
             m.read.side_effect = file_content()
+            m.__enter__().read.side_effect = file_content()
             m.readlines.side_effect = file_content(list)
             m.__iter__.side_effect = file_content(iter)
             m.close.side_effect = do_nothing
