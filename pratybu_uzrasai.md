@@ -254,8 +254,16 @@ print(pi)
 from math import pi, sqrt, sin, cos
 ```
 
-# import file from file in the same directory
-# if file is in subdirectory __init__.py should be added
+Paketu laikomi ir python failai einamajame kataloge. Importuojant
+nereikia nurodyti failo plėtinio.
+
+Paketu laikomi ir katalogai, esantys einamajame kataloge, jeigu juose yra
+`__init__.py` failas.
+
+Importuojant failą yra įvykdomas visas failo turinys išskyrus kodas po bloko:
+
+```if __name__ == '__main__':```
+
 
 Standartinės bibliotekos paketai `sys`, `os`, `math`:
   * `sys`
@@ -277,10 +285,14 @@ Standartinės bibliotekos paketai `sys`, `os`, `math`:
 
 Paketų įsidiegimas naudojant `pip`, pvz terminale įvykdant `pip install -u matplotlib`:
 
-    from matplotlib import pyplot as plt
-    xs = [0, 1, 0.5]
-    ys = [0, 0, 0.5]
-    plt.show(xs, ys)
+```
+from matplotlib import pyplot as plt
+
+xs = [0, 1, 0.5]
+ys = [0, 0, 0.5]
+plt.plot(xs, ys)
+plt.show()
+```
 
 
 
@@ -290,15 +302,10 @@ iškelti į funkciją. Funkcijų panaudojimo pavyzdžiai:
 ```
 def dist(a, b):
     retrun math.sqrt(a**2 + b**2)
-
-def angle():
-    return 
-
-def draw_shape(points):
-    return
 ```
 
 Jeigu kodas yra suskaidytas į funkcijas, funkcijoms gali būti rašomi automatiniai testai, pavyzdžiui:
+
 ```
 def dist(a, b):
     retrun math.sqrt(a**2 + b**2)
@@ -310,6 +317,9 @@ def test_dist():
 if `test` in sys.argv:
     test_dist()
 ```
+
+Visos funkcijos prasidedančios `test_` gali būti surinktos ir įvykdytos
+naudojant `pytest` paketą, kurį galima įsidiegti su `pip3 install pytest`.
 
 
 ### Dešimtosios pratybos
