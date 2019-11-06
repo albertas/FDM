@@ -258,11 +258,11 @@ for inputs, expected_result in test_data:
             exit()
 
     def not_empty_words(text):
-        return [w for w in text.split() if w]
+        return [w.strip('.,?!') for w in text.split() if w]
 
     if not_empty_words(expected_result) != not_empty_words(result):
-        print('\nPrograma veikia nekorektiškai su įvestimis:', ', '.join([str(i) for i in inputs]))
-        print('Tikėtąsi', expected_result, ', o gauta', result)
+        print('\nPrograma veikia nekorektiškai, kai nuskaitomo failo turinys yra:\n', ''.join([str(i) for i in inputs]))
+        print('\n\nTikėtąsi:\n', expected_result, '\n\n, o gauta:\n', result)
         exit()
     else:
         print('+', end='')
