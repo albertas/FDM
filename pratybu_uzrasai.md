@@ -114,41 +114,233 @@ Kintamųjų vardų sudarymo taisyklės:
 
 Paklaidos, kurio atsiranda dirbant su realiosiomis reikšmėmis. `round(<reikšmė>, <tikslumas>)` funkcijos naudojimas reikšmių palyginimams.
 
-Funkcijos:
- * funkcijos struktūra, raktiniai žodžiai `def`, `return`
- * parametras - reikšmės, kurių tikisi funkcija.
-  * parametrų nustatytosios reikšmės.
- * argumentas - reikšmės su kuriomis funkcija iškviečiama.
-  * argumentų perdavimo būdai.
+[Funkcijos](https://docs.python.org/3/tutorial/controlflow.html#defining-functions):
+ * funkcijos struktūra, raktiniai žodžiai `def`, `return`:
+    
+```
+def kvadratas(a):
+    return a*a
+```
+
+ * parametras - reikšmės, kurių tikisi funkcija (pvz., `a`).
+  * parametrų nustatytosios reikšmės (pvz.: `atspausdinti`):
+
+```
+def kvadratas(a, atspausdinti=False):
+    if atspausdinti:
+        print(a*a)
+    return a*a
+```
+
+ * argumentas - reikšmės su kuriomis funkcija iškviečiama (pvz.: `2`; `3, True`):
+
+```
+kvadratas(2)
+kvadratas(3, True)
+kvadratas(3, atspausdinti=True)
+```
+
  * funkcijos grąžinamos reikšmės.
 
+
 Žodynų ir sąrašų elementų panaudojimas.
+
+```
+zodynas = {}
+
+for title in ['a', 'b', 'c', 'd']:
+    x = int(input('Įveskite '+title+' taško x koordinatę'))
+    y = int(input('Įveskite '+title+' taško y koordinatę'))
+    zodynas[title] = [x, y]
+
+print(zodynas)      # {'a': [0, 0], 'b': [0, 1], 'c': [1, 1], 'd': [2, 2]}
+
+zodynas['a'][0]  # 0
+zodynas['a'][1]  # 0
+
+bx, by = zodynas['b']
+```
 
 
 ### Septintosios pratybos
 Failai ir jų metodai:
-  * open 
-  * close
-  * read
-  * write
+  * open() 
+  * close()
+  * read()
+  * write()
+
+```
+In [46]: f = open('laikinas.txt', 'r')
+
+In [47]: content = f.read()
+
+In [48]: content
+Out[48]: 'Labas pasauli,\nHello world!\nBandau įrašyti\n'
+
+In [49]: content.split()
+Out[49]: ['Labas', 'pasauli,', 'Hello', 'world!', 'Bandau', 'įrašyti']
+
+In [50]: for zodis in content.split():
+    ...:     zodis = zodis.strip('.,!?')
+    ...:     print(zodis)
+
+```
+
 
 Konteksto valdytojas (context manager), pvz.: `with open('filname') as f:`
 
+```
+In [38]: with open('laikinas.txt', 'r') as f:
+    ...:     print(f.read())
+```
+
 Simbolių eilučių metodai:
- * split
- * strip
- * replace
- * lower
- * upper
+ * split()
+
+ * strip()
+```
+
+In []: zodis = 'Labas,'                                                       
+In []: zodis.strip('.,!?')
+Out[]: 'Labas'                                                       
+```
+
+ * replace()
+
+```
+In []: zodis.replace('t', 'T')                                               
+Out[]: 'Turinys'
+
+In []: zodis.replace('t', '')                                                
+Out[]: 'urinys'
+```
+
+ * lower()
+
+```
+In []: zodis = 'Labas'                                                       
+
+In []: zodis.lower()                                                         
+Out[]: 'labas'
+
+In []: yra_didziuju = (zodis.lower() != zodis)                               
+
+In []: yra_didziuju                                                          
+Out[]: True
+```
+
+ * upper()
+
+```
+In []: zodis.upper()                                                         
+Out[]: 'LABAS'
+```
 
 Simbolių eilučių formatavimas naudojant `f'{}'`.
+
+### Aštuntosios pratybos
+-
+
+### Devintosios pratybos
+Importavimo sakinys `import`
+
+```
+import math     # Standard library packages are available by default
+print(math.pi)
+
+from math import pi
+print(pi)
+
+from math import pi, sqrt, sin, cos
+```
+
+# import file from file in the same directory
+# if file is in subdirectory __init__.py should be added
+
+Standartinės bibliotekos paketai `sys`, `os`, `math`:
+  * `sys`
+    * `argv` - argumentų sąrašas kuris buvo perduotas iškviečiant programą
+    * `path` - vietos, kuriose ieškoma Python paketų
+    * `version` - Python versija
+
+  * `os` 
+    * dir()
+    * exists()
+    * isfile()
+    * join()
+    * cwd()
+
+  * `math` 
+    * pi
+    * cos()
+    * sqrt()
+
+Paketų įsidiegimas naudojant `pip`, pvz terminale įvykdant `pip install -u matplotlib`:
+
+    from matplotlib import pyplot as plt
+    xs = [0, 1, 0.5]
+    ys = [0, 0, 0.5]
+    plt.show(xs, ys)
+
+
+
+Jeigu parašote tą patį pasikartojantį kodą, tik su kitais kintamaisiais - tą kodą reikia
+iškelti į funkciją. Funkcijų panaudojimo pavyzdžiai:
+
+```
+def dist(a, b):
+    retrun math.sqrt(a**2 + b**2)
+
+def angle():
+    return 
+
+def draw_shape(points):
+    return
+```
+
+Jeigu kodas yra suskaidytas į funkcijas, funkcijoms gali būti rašomi automatiniai testai, pavyzdžiui:
+```
+def dist(a, b):
+    retrun math.sqrt(a**2 + b**2)
+
+def test_dist():
+    assert dist([0,0], [1,0]) == 1
+    assert dist([0,0], [3,4]) == 5
+
+if `test` in sys.argv:
+    test_dist()
+```
+
+
+### Dešimtosios pratybos
+Klaidų (exception) sugavimas:
+
+```
+try:
+    sarasas[100]
+except IndexError as exc:
+    print('Toks indeksas neegzistuoja')
+```
+
+Klaidų (exception) sukėlimas:
+
+```
+raise ValueException('Nekorektiški taškai')
+```
+
+Klaidos pakartotinis sukėlimas:
+
+```
+try:
+    sarasas[100]
+except IndexError:
+    print('Toks indeksas neegzistuoja')
+    raise
+```
 
 
 
 ### Būsimos pratybos
-Failai
-
-[Funkcijos apibrėžimas](https://docs.python.org/3/tutorial/controlflow.html#defining-functions).
 
 Klaidų ieškojimas naudojant `import pdb; pdb.set_trace()`, debugerio veiksmai: `n`, `s`, `c`, `q`.
 
