@@ -225,9 +225,10 @@ for inputs, expected_result in test_data:
             yield inputs
 
     write_file = StringIO()
+    def do_nothing():
+        pass
+    write_file.close = do_nothing
     def open_method(file, mode='r', *args, **kwargs):
-        def do_nothing():
-            pass
         if mode == 'r':
             m = MagicMock()
             m.read.side_effect = file_content()
