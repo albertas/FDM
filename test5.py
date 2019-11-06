@@ -226,11 +226,14 @@ for inputs, expected_result in test_data:
 
     write_file = StringIO()
     def open_method(file, mode='r', *args, **kwargs):
+        def do_nothing():
+            pass
         if mode == 'r':
             m = MagicMock()
             m.read.side_effect = file_content()
             m.readlines.side_effect = file_content(list)
             m.__iter__.side_effect = file_content(iter)
+            m.close.side_effect = do_nothing
             return m
         return write_file
 
