@@ -365,8 +365,12 @@ try:
 except ZeroDivisionError as e: 
     import pdb; pdb.set_trace() 
                                                                                                                                        
-# Vykdymas yra pertraukiamas, prieinamos komandos:
-# `n`, `s`, `c`, `q`.
+## Vykdymas yra pertraukiamas, prieinamos komandos:
+## `n` (next) - įvykdyti einąją sakinį ir pereiti prie kito
+## `s` (step inside) - pradėti einamojo sakinio vykdymą
+## `c` (continue) - nutraukti derinimą ir pratęsti programos vykdymą
+## `q` (quit) - nutraukti programos vykdymą
+
 (Pdb) print(a)
 1
 (Pdb) print(b)
