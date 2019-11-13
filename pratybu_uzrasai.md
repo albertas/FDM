@@ -323,7 +323,7 @@ naudojant `pytest` paketą, kurį galima įsidiegti su `pip3 install pytest`.
 
 
 ### Dešimtosios pratybos
-Klaidų (exception) sugavimas:
+#### Klaidų (exception) sugavimas:
 
 ```
 try:
@@ -348,10 +348,33 @@ except IndexError:
     raise
 ```
 
+#### Programos testavimas naudojant `pdb` modulį.
+
+```
+import pdb; pdb.set_trace()
+```
+
+Praktinis `pdb` naudojimo pavyzdys:
+
+
+```
+a = 1                                                                                                                                  
+b = 0                                                                                                                                  
+try: 
+    a / b 
+except ZeroDivisionError as e: 
+    import pdb; pdb.set_trace() 
+                                                                                                                                       
+# Vykdymas yra pertraukiamas, prieinamos komandos:
+# `n`, `s`, `c`, `q`.
+(Pdb) print(a)
+1
+(Pdb) print(b)
+0
+(Pdb) c
+```
 
 
 ### Būsimos pratybos
-
-Klaidų ieškojimas naudojant `import pdb; pdb.set_trace()`, debugerio veiksmai: `n`, `s`, `c`, `q`.
 
 Papildytas Python interaktyvus interpretatorius: `ipython`.
