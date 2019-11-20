@@ -323,10 +323,13 @@ naudojant `pytest` paketą, kurį galima įsidiegti su `pip3 install pytest`.
 
 
 ### Dešimtosios pratybos
+
+### Vienuoliktosios pratybos
 #### Klaidų (exception) sugavimas:
 
 ```
 try:
+    sarasas = []
     sarasas[100]
 except IndexError as exc:
     print('Toks indeksas neegzistuoja')
