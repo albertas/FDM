@@ -2,11 +2,11 @@
 ### Užduotys
 
 Užduočių sąrašai:
- - [1 užduotis](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_1.html) iki 2019-10-02.
- - [2 užduotis](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_2.html) iki 2019-10-16.
- - [3 užduotis](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_3.html) iki 2019-11-06.
- - [4 užduotis](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_4.html) iki 2019-11-27.
- - [5 užduotis](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_5.html) iki 2019-12-18.
+ - [1 užduotis](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_1.html) iki 2020-10-13.
+ - [2 užduotis](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_2.html) iki 2020-10-27.
+ - [3 užduotis](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_3.html) iki 2020-11-10.
+ - [4 užduotis](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_4.html) iki 2020-12-01.
+ - [5 užduotis](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_5.html) iki 2020-12-22.
 
 Norėdami sužinoti Jums priskirtas užduotis terminale turite įvykyti komandas:
 
