@@ -10,15 +10,15 @@ Užduočių sąrašai:
 
 Norėdami sužinoti Jums priskirtas užduotis terminale turite įvykyti komandas:
 
-    git clone https://github.com/albertas/FDM
-    python3 FDM/uzduotys.py Vardas Pavardė
+    git clone https://github.com/albertas/fdm
+    python3 fdm/uzduotys.py Vardas Pavardė
 
 Norėdami atsiskaityti pirmąją užduotį terminale turite įvykdyti komandas:
 
-    cd FDM
+    cd fdm
     git pull
     cd ..
-    python3 FDM/test1.py Vardas Pavardė jusu_pirmoji_programa.py
+    python3 fdm/test1.py Vardas Pavardė jusu_pirmoji_programa.py
 
 Jeigu Jums buvo atspausdintas pranešimas, kad sėkmingai atsiskaitėte,
 pakvieskite dėstytoją, jog jis pasižymėtų, kad Jūs sėkmingai atsiskaitėte.
