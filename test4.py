@@ -21,21 +21,32 @@ if len(argv) < 4:
 
 os.environ['PYTHONIOENCODING'] = "utf-8"
 
-def set_seed(name, surname):
-    seed(name + ' ' + surname)
+def set_seed(all_args):
+    import unicodedata
+    from random import seed
+    args = [a.strip('<').strip('>') for a in all_args if not a.endswith('.py')]
+    vardas_pavarde = ' '.join(args).lower()
+    vardas_pavarde = unicodedata.normalize('NFKD', vardas_pavarde).encode('ascii','ignore').decode()
+    seed(vardas_pavarde)
 
-vardas = argv[1]
-pavarde = argv[2]
+
+def get_task_variants():
+    from sys import argv
+    from random import choice
+    set_seed(argv[1:])
+    return [
+        choice(range(1, 21)),
+        choice(range(1, 30)),
+        choice(range(1, 37)),
+        choice(range(1, 30)),
+        choice(range(1, 38)),
+    ]
+
+
 filename = argv[-1]
-
 package = filename[:-3] if filename.endswith('.py') else filename
-set_seed(vardas, pavarde)
 
-u1 = choice(range(1, 21))
-u2 = choice(range(1, 30))
-u3 = choice(range(1, 37))
-u4 = choice(range(1, 30))
-u5 = choice(range(1, 38))
+u1, u2, u3, u4, u5 = get_task_variants()
 
 
 data = {
