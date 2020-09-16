@@ -1,14 +1,16 @@
 # FDM Informatika I pratybos
 ### Užduotys
 
-Užduočių sąrašai:
- - [1 užduotis](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_1.html) iki 2020-10-13.
- - [2 užduotis](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_2.html) iki 2020-10-27.
- - [3 užduotis](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_3.html) iki 2020-11-10.
- - [4 užduotis](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_4.html) iki 2020-12-01.
- - [5 užduotis](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_5.html) iki 2020-12-22.
+Užduočių variantai:
+ - [1 užduoties variantai](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_1.html) (1 balas) iki 2020-10-13.
+ - [2 užduoties variantai](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_2.html) (1 balas) iki 2020-10-27.
+ - [3 užduoties variantai](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_3.html) (1 balas) iki 2020-11-10.
+ - [4 užduoties variantai](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_4.html) (1 balas) iki 2020-12-01.
+ - [5 užduoties variantai](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_5.html) (1 balas) iki 2020-12-22.
 
-Norėdami sužinoti Jums priskirtas užduotis terminale turite įvykyti komandas:
+Už kiekvieną pavėluotą savaitę atsiskaityti maksimalus užduoties balas mažinamas po 10%.
+
+Norėdami sužinoti Jums priskirtų užduočių variantus terminale turite įvykyti komandas:
 
     git clone https://github.com/albertas/fdm
     python3 fdm/uzduotys.py Vardas Pavardė
@@ -20,14 +22,17 @@ Norėdami atsiskaityti pirmąją užduotį terminale turite įvykdyti komandas:
     cd ..
     python3 fdm/test1.py Vardas Pavardė jusu_pirmoji_programa.py
 
-Jeigu Jums buvo atspausdintas pranešimas, kad sėkmingai atsiskaitėte,
-pakvieskite dėstytoją, jog jis pasižymėtų, kad Jūs sėkmingai atsiskaitėte.
+įvykdžius šią komandą Jūsų programa bus patikrinta. Aptikus klaidų bus išvestas
+pranešimas su kokia įvestimi programa veikė nekorektiškai. Sėkmės atveju bus atspausdintas 
+pranešimas, kad Jūs sėkmingai atsiskaitėte užduotį ir kiek Jums skirta balų už šią užduotį.
 
 Norėdami atsiskaityti kitas užduotis įvykdykite aukščiau nurodytą komandą, tik
-atitinkamai pakeisdami `test1.py` į `test2.py`, `test3.py`, `test4.py` ir `test5.py`.
- 
-Už kiekvieną pavėluotą savaitę atsiskaityti maksimalus užduoties balas mažinamas po 10%.
+atitinkamai pakeisdami `test1.py` į `test2.py`, `test3.py`, `test4.py` ir `test5.py`. Pavyzdžiui,
 
+    python3 fdm/test2.py Vardas Pavardė jusu_antroji_programa.py
+    python3 fdm/test3.py Vardas Pavardė jusu_trecioji_programa.py
+    python3 fdm/test4.py Vardas Pavardė jusu_ketvirtoji_programa.py
+    python3 fdm/test5.py Vardas Pavardė jusu_penktoji_programa.py
 
 ### Prisijungimas prie MIF kompiuterio
 1. Turite sužinoti savo studento pažymėjimo numerį lsp.lt svetainėje, jis taip pat pateiktas ant LSP pažymėjimo.
