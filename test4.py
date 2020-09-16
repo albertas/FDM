@@ -316,6 +316,6 @@ for inputs, expected_result in test_data:
 
 print(f'\nSveikinu! {" ".join(argv[1:-1])} atsiskaitė 4`ąją užduotį ({filename} {u4}-{randint(100,999)}).')
 score = 10
-if datetime.now().isocalendar()[1] > 48:
-    score -= datetime.now().isocalendar()[1] - 48
+if datetime.now().isocalendar()[1] > 49:
+    score -= datetime.now().isocalendar()[1] - 49
 print(f'Jums už šią užduotį skirtas {score/10:g} balas.')
