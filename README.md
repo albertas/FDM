@@ -24,6 +24,8 @@ Norėdami atsiskaityti pirmąją užduotį terminale turite įvykdyti komandas:
 įvykdžius šią komandą Jūsų programa bus patikrinta. Aptikus klaidų bus išvestas
 pranešimas su kokia įvestimi programa veikė nekorektiškai. Sėkmės atveju bus atspausdintas 
 pranešimas, kad Jūs sėkmingai atsiskaitėte užduotį ir kiek Jums skirta balų už šią užduotį.
+Jeigu kyla kėblumų, atsiskaityti taip pat galite programos kodą atsiųsdami el. paštu:
+**albertas.gimbutas@mif.vu.lt**
 
 Norėdami atsiskaityti kitas užduotis įvykdykite aukščiau nurodytą komandą, tik
 atitinkamai pakeisdami `test1.py` į `test2.py`, `test3.py`, `test4.py` ir `test5.py`. Pavyzdžiui,
