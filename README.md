@@ -1,7 +1,6 @@
 # FDM Informatika I pratybos
 ### Užduotys
 
-Užduočių variantai:
  - [1 užduoties variantai](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_1.html) (1 balas) iki 2020-10-13.
  - [2 užduoties variantai](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_2.html) (1 balas) iki 2020-10-27.
  - [3 užduoties variantai](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_3.html) (1 balas) iki 2020-11-10.
