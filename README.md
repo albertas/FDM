@@ -9,12 +9,22 @@
 
 Už kiekvieną pavėluotą savaitę atsiskaityti maksimalus užduoties balas mažinamas po 10%.
 
-Norėdami sužinoti Jums priskirtų užduočių variantus terminale turite įvykyti komandas:
+Taip pat, yra galimybė gauti 1 papildomą balą iš pratybų už pratybų metu atliktą pristatymą Python
+programavimo kalbos tematika. Apie būsimą pranešimą prašau el. paštu informuoti bent viena savaite
+prieš pristatymą. Temą galite pasirinkti laisvai, pavyzdžiui tai gali būti pasirinktos
+[Python bibliotekos](https://docs.python.org/3/library/index.html) arba asmeninio projekto pristatymas.
+
+Jums priskirtų užduočių variantų numeriai bus atsiųsti el. paštu. Jeigu laiško negavote 
+ar dar kartą norėtumėte sužinoti Jums priskirtų užduočių variantus terminale turite įvykdyti
+komandas:
 
     git clone https://github.com/albertas/fdm
     python3 fdm/uzduotys.py Vardas Pavardė
 
-Norėdami atsiskaityti pirmąją užduotį terminale turite įvykdyti komandas:
+Šias užduotis bus galima atsiskaityti [python.lt](https://python.lt) svetainėje. Svetainė sukurta
+šioms pratyboms.
+
+Taip pat, užduotis galite ištestuoti savo lokalioje aplinkoje, terminale įvykdydami tokias komandas:
 
     cd fdm
     git pull
@@ -23,11 +33,11 @@ Norėdami atsiskaityti pirmąją užduotį terminale turite įvykdyti komandas:
 
 įvykdžius šią komandą Jūsų programa bus patikrinta. Aptikus klaidų bus išvestas
 pranešimas su kokia įvestimi programa veikė nekorektiškai. Sėkmės atveju bus atspausdintas 
-pranešimas, kad Jūs sėkmingai atsiskaitėte užduotį ir kiek Jums skirta balų už šią užduotį.
-Jeigu kyla kėblumų, atsiskaityti taip pat galite programos kodą atsiųsdami el. paštu:
-**albertas.gimbutas@mif.vu.lt**
+pranešimas, kiek Jums skirta balų už šią užduotį. Atspausdintąjį pranešimą ir progarmos kodą
+pranšau atsiųsti man el. paštu . Taip pat, jeigu kyla kokių nors
+klausimų ar kėblumų, mielai į juos atsakysiu el. paštu **albertas.gimbutas@mif.vu.lt**.
 
-Norėdami atsiskaityti kitas užduotis įvykdykite aukščiau nurodytą komandą, tik
+Norėdami patikrinti kitas užduotis įvykdykite aukščiau nurodytą komandą, tik
 atitinkamai pakeisdami `test1.py` į `test2.py`, `test3.py`, `test4.py` ir `test5.py`. Pavyzdžiui,
 
     python3 fdm/test2.py Vardas Pavardė jusu_antroji_programa.py
