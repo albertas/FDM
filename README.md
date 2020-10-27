@@ -1,4 +1,17 @@
 # FDM Informatika I pratybos
+##### Turinys
+
+[Užduotys](#užduotys)<br>
+[Pratybų įrašai](#pratybų_įrašai)<br>
+[Prisijungimas prie MIF kompiuterio](#prisijungimas_prie_mif_kompiuterio)<br>
+[Kodo įvykdymas](#kodo_įvykdymas)<br>
+[Užduočių atlikimas naudojant asmeninius kompiuterius (Windows)](#užduočių_atlikimas_naudojant_asmeninius_kompiuterius_(windows))<br>
+[Papildomiems įgūdžiams HackerRank.com](#papildomiems_įgūdžiams_hackerrank.com)<br>
+[Teorijos paskaitų puslapis](#teorijos_paskaitų_puslapis)
+[Kontaktai](#kontaktai)
+
+<a name="užduotys"/>
+
 ### Užduotys
 
  - [1 užduoties variantai](https://klevas.mif.vu.lt/~tomukas/uzduotys/ruduo/uzd_1.html) (1 balas) iki 2020-10-13.
@@ -45,17 +58,41 @@ atitinkamai pakeisdami `test1.py` į `test2.py`, `test3.py`, `test4.py` ir `test
     python3 fdm/test4.py Vardas Pavardė jusu_ketvirtoji_programa.py
     python3 fdm/test5.py Vardas Pavardė jusu_penktoji_programa.py
 
+<a name="pratybų_įrašai"/>
+
+### Pratybų įrašai
+[2020-09-22 12:00](https://python.lt/static/videos/FDM_2020-09-22_1200.mp4)
+[2020-09-22 14:00](https://python.lt/static/videos/FDM_2020-09-22_1400.mp4)
+
+[2020-09-29 14:00](https://python.lt/static/videos/FDM_2020-09-29_1400.mp4)
+
+[2020-10-06 12:00](https://python.lt/static/videos/FDM_2020-10-06_1200.mp4)
+[2020-10-06 14:00](https://python.lt/static/videos/FDM_2020-10-06_1400.mp4)
+
+[2020-10-13 12:00](https://python.lt/static/videos/FDM_2020-10-13_1200.mp4)
+[2020-10-13 14:00](https://python.lt/static/videos/FDM_2020-10-13_1400.mp4)
+
+[2020-10-20 12:00](https://python.lt/static/videos/FDM_2020-10-20_1200.mp4)
+[2020-10-20 14:00](https://python.lt/static/videos/FDM_2020-10-20_1400.mp4)
+
+[2020-10-27 12:00](https://python.lt/static/videos/FDM_2020-10-27_1200.mp4)
+[2020-10-27 14:00](https://python.lt/static/videos/FDM_2020-10-27_1400.mp4)
+
+<a name="prisijungimas_prie_mif_kompiuterio"/>
+
 ### Prisijungimas prie MIF kompiuterio
 1. Turite sužinoti savo studento pažymėjimo numerį lsp.lt svetainėje, jis taip pat pateiktas ant LSP pažymėjimo.
 2. Susikurti savo VU paskyrą: [id.vu.lt](https://id.vu.lt) puslapyje
 3. Turite susikurti savo MIF paskyrą: [https://radius.mif.vu.lt/passwd2](https://radius.mif.vu.lt/passwd2) puslapyje.
 4. Naudodami MIF paskyrą galite prisijungti prie:  **linux (vnc)**
 
+<a name="kodo_įvykdymas"/>
+
 ### Kodo įvykdymas
 Programas galite redaguoti su Gedit arba Notepad:
-1. Terminale parašykite: `gedit failo_vardas.py`
+1. Terminale (ar Git Bash'e) parašykite: `gedit failo_vardas.py`
 2. Parašykite programą, pavyzdžiui `print('Labas')`.
-3. Išsaugokite failą paspausdami **Ctrl+S**.
+3. Išsaugokite failą paspausdami **Ctrl+s**.
 4. Atidarykite kitą terminalo langą ir parašykite: `python3 failo_vardas.py`
 Bus įvykdyta Jūsų programa.
 5. Gedit nustatymuose pasikeiskite, kad tabuliacijos simboliai būtų pakeičiami į 4 tarpus.
@@ -64,6 +101,13 @@ Python veikimą galite išbandyti ir su interaktyviu Python interpretatoriumi:
 1. Atidarykite Terminalo langą.
 2. Parašykite **python3**. Atsidarys interaktyvus interpretatorius, kuris
 iš karto įvykdo Jūsų įvestas komandas.
+
+Programos kodą taip pat galite rašyti ir įvykdyti svetainėse:
+* [python.lt](https://python.lt)
+* [repl.it](https://repl.it/languages/Python3)
+
+
+<a name="užduočių_atlikimas_naudojant_asmeninius_kompiuterius_(windows)"/>
 
 ### Užduočių atlikimas naudojant asmeninius kompiuterius (Windows)
 1. Įsidiekite [Python](https://www.python.org/downloads/). Įsitikinkite, kad
@@ -77,6 +121,7 @@ iš karto įvykdo Jūsų įvestas komandas.
    Arba Terminale įvykdykite `export PYTHONIOENCODING=utf-8` komandą prieš
    vykdydami Python komandas.
 
+<a name="papildomiems_įgūdžiams_hackerrank.com"/>
 
 ### Papildomiems įgūdžiams HackerRank.com
 Programavimo pradmenims įgauti ir žinioms gilinti egzistuoja puikus
@@ -85,10 +130,12 @@ sprendimus. Programavimo užduotys sugrupuotos pagal tematiką, sudėtingumą.
 Python programavimo kalbos galima išmokti atlikus užduotis:
 https://HackerRank.com/domains/python
 
+<a name="teorijos_paskaitų_puslapis"/>
 
 ### Teorijos paskaitų puslapis:
 https://klevas.mif.vu.lt/~tomukas/paskaitos/Informatika1.html
 
+<a name="kontaktai"/>
 
 ### Kontaktai
 El. paštas:  **albertas.gimbutas@mif.vu.lt**
