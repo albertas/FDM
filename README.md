@@ -61,22 +61,22 @@ atitinkamai pakeisdami `test1.py` į `test2.py`, `test3.py`, `test4.py` ir `test
 <a name="pratybų_įrašai"/>
 
 ### Pratybų įrašai
-[2020-09-22 12:00](https://python.lt/static/videos/FDM_2020-09-22_1200.mp4)<br>
-[2020-09-22 14:00](https://python.lt/static/videos/FDM_2020-09-22_1400.mp4)
+[2020-09-22 12:00](https://python.lt/static/video/FDM_2020-09-22_1200.mp4)<br>
+[2020-09-22 14:00](https://python.lt/static/video/FDM_2020-09-22_1400.mp4)
 
-[2020-09-29 14:00](https://python.lt/static/videos/FDM_2020-09-29_1400.mp4)
+[2020-09-29 14:00](https://python.lt/static/video/FDM_2020-09-29_1400.mp4)
 
-[2020-10-06 12:00](https://python.lt/static/videos/FDM_2020-10-06_1200.mp4)<br>
-[2020-10-06 14:00](https://python.lt/static/videos/FDM_2020-10-06_1400.mp4)
+[2020-10-06 12:00](https://python.lt/static/video/FDM_2020-10-06_1200.mp4)<br>
+[2020-10-06 14:00](https://python.lt/static/video/FDM_2020-10-06_1400.mp4)
 
-[2020-10-13 12:00](https://python.lt/static/videos/FDM_2020-10-13_1200.mp4)<br>
-[2020-10-13 14:00](https://python.lt/static/videos/FDM_2020-10-13_1400.mp4)
+[2020-10-13 12:00](https://python.lt/static/video/FDM_2020-10-13_1200.mp4)<br>
+[2020-10-13 14:00](https://python.lt/static/video/FDM_2020-10-13_1400.mp4)
 
-[2020-10-20 12:00](https://python.lt/static/videos/FDM_2020-10-20_1200.mp4)<br>
-[2020-10-20 14:00](https://python.lt/static/videos/FDM_2020-10-20_1400.mp4)
+[2020-10-20 12:00](https://python.lt/static/video/FDM_2020-10-20_1200.mp4)<br>
+[2020-10-20 14:00](https://python.lt/static/video/FDM_2020-10-20_1400.mp4)
 
-[2020-10-27 12:00](https://python.lt/static/videos/FDM_2020-10-27_1200.mp4)<br>
-[2020-10-27 14:00](https://python.lt/static/videos/FDM_2020-10-27_1400.mp4)
+[2020-10-27 12:00](https://python.lt/static/video/FDM_2020-10-27_1200.mp4)<br>
+[2020-10-27 14:00](https://python.lt/static/video/FDM_2020-10-27_1400.mp4)
 
 <a name="prisijungimas_prie_mif_kompiuterio"/>
 
