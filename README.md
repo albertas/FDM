@@ -1,14 +1,14 @@
 # FDM Informatika I pratybos
 ##### Turinys
 
-[Užduotys](#užduotys)<br>
-[Pratybų įrašai](#pratybų_įrašai)<br>
-[Prisijungimas prie MIF kompiuterio](#prisijungimas_prie_mif_kompiuterio)<br>
-[Kodo įvykdymas](#kodo_įvykdymas)<br>
-[Užduočių atlikimas naudojant asmeninius kompiuterius (Windows)](#užduočių_atlikimas_naudojant_asmeninius_kompiuterius_(windows))<br>
-[Papildomiems įgūdžiams HackerRank.com](#papildomiems_įgūdžiams_hackerrank.com)<br>
-[Teorijos paskaitų puslapis](#teorijos_paskaitų_puslapis)
-[Kontaktai](#kontaktai)
+ - [Užduotys](#užduotys)<br>
+ - [Pratybų įrašai](#pratybų_įrašai)<br>
+ - [Prisijungimas prie MIF kompiuterio](#prisijungimas_prie_mif_kompiuterio)<br>
+ - [Kodo įvykdymas](#kodo_įvykdymas)<br>
+ - [Užduočių atlikimas naudojant asmeninius kompiuterius (Windows)](#užduočių_atlikimas_naudojant_asmeninius_kompiuterius_(windows))<br>
+ - [Papildomiems įgūdžiams HackerRank.com](#papildomiems_įgūdžiams_hackerrank.com)<br>
+ - [Teorijos paskaitų puslapis](#teorijos_paskaitų_puslapis)<br>
+ - [Kontaktai](#kontaktai)<br>
 
 <a name="užduotys"/>
 
