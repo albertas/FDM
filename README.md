@@ -1,14 +1,14 @@
 # FDM Informatika I pratybos
 ##### Turinys
 
- - [Užduotys](#užduotys)<br>
- - [Pratybų įrašai](#pratybų_įrašai)<br>
- - [Prisijungimas prie MIF kompiuterio](#prisijungimas_prie_mif_kompiuterio)<br>
- - [Kodo įvykdymas](#kodo_įvykdymas)<br>
- - [Užduočių atlikimas naudojant asmeninius kompiuterius (Windows)](#užduočių_atlikimas_naudojant_asmeninius_kompiuterius_(windows))<br>
- - [Papildomiems įgūdžiams HackerRank.com](#papildomiems_įgūdžiams_hackerrank.com)<br>
- - [Teorijos paskaitų puslapis](#teorijos_paskaitų_puslapis)<br>
- - [Kontaktai](#kontaktai)<br>
+ 1. [Užduotys](#užduotys)<br>
+ 2. [Pratybų įrašai](#pratybų_įrašai)<br>
+ 3. [Prisijungimas prie MIF kompiuterio](#prisijungimas_prie_mif_kompiuterio)<br>
+ 4. [Kodo įvykdymas](#kodo_įvykdymas)<br>
+ 5. [Užduočių atlikimas naudojant asmeninius kompiuterius (Windows)](#užduočių_atlikimas_naudojant_asmeninius_kompiuterius_(windows))<br>
+ 6. [Papildomiems įgūdžiams HackerRank.com](#papildomiems_įgūdžiams_hackerrank.com)<br>
+ 7. [Teorijos paskaitų puslapis](#teorijos_paskaitų_puslapis)<br>
+ 8. [Kontaktai](#kontaktai)<br>
 
 <a name="užduotys"/>
 
@@ -61,21 +61,21 @@ atitinkamai pakeisdami `test1.py` į `test2.py`, `test3.py`, `test4.py` ir `test
 <a name="pratybų_įrašai"/>
 
 ### Pratybų įrašai
-[2020-09-22 12:00](https://python.lt/static/videos/FDM_2020-09-22_1200.mp4)
+[2020-09-22 12:00](https://python.lt/static/videos/FDM_2020-09-22_1200.mp4)<br>
 [2020-09-22 14:00](https://python.lt/static/videos/FDM_2020-09-22_1400.mp4)
 
 [2020-09-29 14:00](https://python.lt/static/videos/FDM_2020-09-29_1400.mp4)
 
-[2020-10-06 12:00](https://python.lt/static/videos/FDM_2020-10-06_1200.mp4)
+[2020-10-06 12:00](https://python.lt/static/videos/FDM_2020-10-06_1200.mp4)<br>
 [2020-10-06 14:00](https://python.lt/static/videos/FDM_2020-10-06_1400.mp4)
 
-[2020-10-13 12:00](https://python.lt/static/videos/FDM_2020-10-13_1200.mp4)
+[2020-10-13 12:00](https://python.lt/static/videos/FDM_2020-10-13_1200.mp4)<br>
 [2020-10-13 14:00](https://python.lt/static/videos/FDM_2020-10-13_1400.mp4)
 
-[2020-10-20 12:00](https://python.lt/static/videos/FDM_2020-10-20_1200.mp4)
+[2020-10-20 12:00](https://python.lt/static/videos/FDM_2020-10-20_1200.mp4)<br>
 [2020-10-20 14:00](https://python.lt/static/videos/FDM_2020-10-20_1400.mp4)
 
-[2020-10-27 12:00](https://python.lt/static/videos/FDM_2020-10-27_1200.mp4)
+[2020-10-27 12:00](https://python.lt/static/videos/FDM_2020-10-27_1200.mp4)<br>
 [2020-10-27 14:00](https://python.lt/static/videos/FDM_2020-10-27_1400.mp4)
 
 <a name="prisijungimas_prie_mif_kompiuterio"/>
